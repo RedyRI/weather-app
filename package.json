@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rimraf dist && webpack && webpack serve"
+    "start": "rimraf dist && webpack && webpack serve",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "css-minimizer-webpack-plugin": "^1.3.0",
     "dotenv-webpack": "^7.0.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.5.0",
     "node-sass": "^5.0.0",

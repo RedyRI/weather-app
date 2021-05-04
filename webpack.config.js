@@ -9,7 +9,7 @@ const TerserPlugin = require('terser-webpack-plugin')
 // const DotEnv = require('dotenv-webpack')
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js', // especificar el archivo raiz que controlara toda nuestra aplicacion
   output: {
     // especificar la salida de nuestros archivos generados
